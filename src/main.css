@@ -1,0 +1,15 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    @apply font-light;
+  }
+}
+
+body {
+  margin: 0;
+  line-height: inherit;
+  font-weight: 300;
+}
